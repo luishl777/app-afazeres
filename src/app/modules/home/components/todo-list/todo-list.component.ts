@@ -9,10 +9,7 @@ import { TaskList } from '../../model/task-list';
   styleUrls: ['./todo-list.component.scss'],
 })
 export class TodoListComponent implements OnInit {
-  public taskList: Array<TaskList> = [
-    { task: 'Meu novo afazer', checked: true },
-    { task: 'Meu novo afazer', checked: false },
-  ];
+  public taskList: Array<TaskList> = [];
 
   constructor() {}
 
